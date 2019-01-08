@@ -35,5 +35,7 @@
             <TextBlock x:Name="DelayText" Text="500ms" Margin="10" TextAlignment="Center" FontSize="26.667" />
             <TextBlock x:Name="GpioStatus" Text="Waiting to initialize GPIO..." Margin="10,50,10,10" TextAlignment="Center" FontSize="26.667" />
         </StackPanel>
+        <Button Content="LINKS" HorizontalAlignment="Left" Margin="335,201,0,0" VerticalAlignment="Top" Height="116" Width="189" Click="Button_Click"/>
+        <Button Content="RECHTS" HorizontalAlignment="Left" Margin="1000,201,0,0" VerticalAlignment="Top" Height="116" Width="192" Click="Button_Click_1"/>
     </Grid>
 </Page>
